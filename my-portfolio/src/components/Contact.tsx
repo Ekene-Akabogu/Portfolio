@@ -7,7 +7,7 @@
  */
 import { useForm } from 'react-hook-form';
 import { motion } from 'motion/react';
-import emailjs from 'emailjs-com';
+
 
 /**
  * Custom Modules
@@ -50,27 +50,19 @@ export const Contact = () => {
         },
     });
 
-    const onSubmit = async (values: ContactFormValues) => {
-        try {
-            await emailjs.send(
-                'YOUR_SERVICE_ID',
-                'YOUR_TEMPLATE_ID',
-                {
-                    name: values.name,
-                    email: values.email,
-                    phone: values.phone,
-                    company: values.company,
-                    message: values.message,
-                },
-                'YOUR_PUBLIC_KEY'
-            );
+    const onSubmit = (values: ContactFormValues) => {
+        const subject = encodeURIComponent('New Contact Message');
+        const body = encodeURIComponent(`
+                Name: ${values.name}
+                Email: ${values.email}
+                Phone: ${values.phone}
+                Company: ${values.company}
 
-            alert('Message sent successfully!');
-            form.reset();
-        } catch (error) {
-            console.error(error);
-            alert('Failed to send message. Please try again.');
-        }
+                Message:
+                ${values.message}
+            `);
+
+    window.location.href = `mailto:ekenem.akabogu@gmail.com?subject=${subject}&body=${body}`;
     };
 
     return (
