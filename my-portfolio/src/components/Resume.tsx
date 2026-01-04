@@ -98,7 +98,7 @@ export const Resume = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true }}
-                    variants={staggerContainer(0.5 )}
+                    variants={staggerContainer(0.2 )}
                     className="grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-5"
                 >
                     {tools.map((tool, i) => (
