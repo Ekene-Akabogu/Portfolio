@@ -28,13 +28,21 @@ export const ProjectCard = ({
             variants={fadeUp}
             className="relative"
         >
-            <figure className="overflow-hidden rounded-md">
-                <img 
-                    src={imgSrc} 
-                    alt={title }
-                    className="rounded-md transition duration-500 hover:scaller-115 w-full"
-                />
-            </figure>
+            {/* Clickable image linking to the project */}
+            <a 
+                href={projectLink} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block"
+            >
+                <figure className="overflow-hidden rounded-md">
+                    <img 
+                        src={imgSrc} 
+                        alt={title}
+                        className="rounded-md transition duration-500 hover:scale-105 w-full"
+                    />
+                </figure>
+            </a>
 
             <div className="absolute bottom-0 p-2 flex gap-2">
                 {tags.map((tag, i) => (

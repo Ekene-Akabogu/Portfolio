@@ -81,9 +81,9 @@ const socialLinks: LinksType[] = [
 const projectsData: ProjectType[] = [
   {
     imgSrc: '/images/project-ph-1.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    title: 'Brand Identity',
+    tags: ['UI/UX', 'Design & Branding'],
+    projectLink: 'https://www.canva.com/design/DAG9Z0L2BFc/D90GkO5vTnuHGigOUwWGHg/view?utm_content=DAG9Z0L2BFc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he175af58f6',
   },
   {
     imgSrc: '/images/project-ph-2.jpeg',
