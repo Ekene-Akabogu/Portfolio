@@ -87,9 +87,9 @@ const projectsData: ProjectType[] = [
   },
   {
     imgSrc: '/images/project-ph-2.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    title: 'Website Development',
+    tags: ['Website', 'Development'],
+    projectLink: 'https://dum.theneurobide.com',
   },
   {
     imgSrc: '/images/project-ph-3.jpeg',
