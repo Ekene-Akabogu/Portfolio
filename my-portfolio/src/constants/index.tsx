@@ -94,7 +94,7 @@ const projectsData: ProjectType[] = [
   {
     imgSrc: '/images/project-ph-3.jpeg',
     title: 'WarehouseX UI/UX Design',
-    tags: ['UI/UX', 'Design & Branding'],
+    tags: ['UI/UX', 'Web Design'],
     projectLink: 'https://www.figma.com/design/UfyfUDqK5gaKhphUtvCtX6/WarehouseX---Web-Desktop?node-id=0-1&p=f&t=gZZESvRKdhVzxRx8-0',
   },
   {
