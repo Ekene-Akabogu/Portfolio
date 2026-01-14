@@ -93,9 +93,9 @@ const projectsData: ProjectType[] = [
   },
   {
     imgSrc: '/images/project-ph-3.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    title: 'WarehouseX UI/UX Design',
+    tags: ['UI/UX', 'Development'],
+    projectLink: 'https://www.figma.com/design/UfyfUDqK5gaKhphUtvCtX6/WarehouseX---Web-Desktop?node-id=0-1&p=f&t=gZZESvRKdhVzxRx8-0',
   },
   {
     imgSrc: '/images/project-ph-4.jpeg',
