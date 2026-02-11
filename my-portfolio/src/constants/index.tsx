@@ -100,8 +100,8 @@ const projectsData: ProjectType[] = [
   {
     imgSrc: '/images/project-ph-4.jpeg',
     title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    tags: ['Java', 'Game Development'],
+    projectLink: 'https://github.com/Ekene-Akabogu/Scrambledgame.git',
   },
 ];
 
