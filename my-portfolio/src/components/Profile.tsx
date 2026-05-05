@@ -26,7 +26,7 @@ export const Profile = () => {
 
             <div className='mt-6'>
                 <p className='text-sm text-neutral-300'>Specialization:</p>
-                <div className="text-lg capitalize">Frontend Developer and UI/UX Designer</div>
+                <div className="text-lg capitalize">Software Engineer and UI/UX Designer</div>
             </div>
 
             <div>
