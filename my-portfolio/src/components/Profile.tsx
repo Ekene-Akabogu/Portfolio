@@ -15,7 +15,7 @@ export const Profile = () => {
             <div className="flex items-center justify-between gap-x-10">
                 <h1 className="text-2xl font-bold">Ekene Akabogu</h1>
 
-                <p className='text-sm'>Frontend Developer and Designer</p>
+                <p className='text-sm'>Software Engineer and Designer</p>
             </div>
 
             <img 

@@ -58,7 +58,7 @@ export const Hero = () => {
                            px-6 py-3 rounded-2xl bg-white/10 border border-white/25 
                            backdrop-blur-md shadow-lg text-white font-semibold"
             >
-                UI/UX Designer & Frontend Developer
+                Software Engineer & UI/UX Designer 
             </motion.div>
 
             {/* CTA Buttons */}
